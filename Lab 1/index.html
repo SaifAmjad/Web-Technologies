@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Lab1</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt quos
+      amet quia eligendi! Voluptatem, consectetur eveniet. Earum totam
+      necessitatibus culpa, aut molestias repellat quod minus minima, nobis quo
+      commodi.
+    </p>
+
+    <button id="btn">Click Me</button>
+
+    <script>
+        const btn=document.getElementById('btn');
+
+        btn.addEventListener('click',(e)=>{
+            e.preventDefault();
+            alert('Button is clicked');
+        })
+    </script>
+  </body>
+</html>
